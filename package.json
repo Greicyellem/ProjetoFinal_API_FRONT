@@ -1,0 +1,24 @@
+{
+  "name": "projetofinal_api_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "prisma": "^5.7.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.2",
+    "@prisma/client": "^5.7.0",
+    "fastify": "^4.24.3",
+    "tsc-init": "^2.1.0",
+    "tsx": "^4.6.2"
+  }
+}
