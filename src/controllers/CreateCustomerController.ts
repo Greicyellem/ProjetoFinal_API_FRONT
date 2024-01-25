@@ -10,6 +10,7 @@ class CreateCustomerController{
 
         reply.send(customer)
     }
+    
 }
 
 export { CreateCustomerController } 
